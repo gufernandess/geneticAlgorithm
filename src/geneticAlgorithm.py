@@ -9,7 +9,8 @@ populationSize = 100
 genes = '''abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP
 QRSTUVWXYZ 1234567890, .-;:_!"#%&/()=?@${[]}'''
 
-target = "testando o algoritmo"
+print('\nInsira a solução proposta(evite usar caracteres acentuados): ')
+target = input()
 
 '''
 classe que representa um indivíduo, que vai possuir
